@@ -432,6 +432,7 @@ button {
 }
 
 .services_img {
+    border-radius: 8px;
     width: 100%;
     float: left;
     text-align: center;
@@ -823,6 +824,11 @@ button {
 .getquote_bt a:hover {
     background-color: #000d10;
     color: #ffffff;
+}
+
+.client_img > img {
+    border-radius: 13px;
+    width: 90%;
 }
 
 
