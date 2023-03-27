@@ -78,6 +78,7 @@ h6 {
     margin: 0
 }
 
+
 h1 {
     font-size: 24px
 }
@@ -546,7 +547,7 @@ button {
 .blog_section {
     width: 100%;
     float: left;
-    background-color: #000;
+    background:url("/images/jeremy-hawes-sx9IL3ECqpI-unsplash.jpg");
     height: auto;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -562,13 +563,14 @@ button {
     font-weight: bold;
     padding-top: 30px;
     text-align: center;
+    color: #000;
 }
 
 .blog_text {
     width: 80%;
     margin: 0 auto;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     padding-top: 40px;
     text-align: center;
 }

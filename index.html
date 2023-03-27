@@ -32,8 +32,16 @@
    <!-- owl stylesheets -->
    <link rel="stylesheet" href="css/owl.carousel.min.css">
    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
-      media="screen">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+        var wow = new WOW({
+            boxClass:     'wow',
+            animateClass: 'animate__animated'
+        })
+        wow.init();
+</script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
@@ -90,7 +98,7 @@
                      <h1 class="banner_taital">Risk Takers!</h1>
                      <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the
                         majority have sufferedThere are ma available, but the majority have suffered</p>
-                     <div class="read_bt"><a href="#">Get A Quote</a></div>
+                     
                   </div>
                </div>
                <div class="carousel-item">
@@ -98,7 +106,7 @@
                      <h1 class="banner_taital">What we have!</h1>
                      <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the
                         majority have sufferedThere are ma available, but the majority have suffered</p>
-                     <div class="read_bt"><a href="#">Get A Quote</a></div>
+                     <div class="read_bt"><a href="services.html">Services</a></div>
                   </div>
                </div>
                <div class="carousel-item">
@@ -106,7 +114,7 @@
                      <h1 class="banner_taital">Why we do it?</h1>
                      <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the
                         majority have sufferedThere are ma available, but the majority have suffered</p>
-                     <div class="read_bt"><a href="#">Get A Quote</a></div>
+                     <div class="read_bt"><a href="about.html">About</a></div>
                   </div>
                </div>
             </div>
@@ -123,16 +131,16 @@
          <div class="services_section_2">
             <div class="row">
                <div class="col-md-4">
-                  <div><img src="images/img-1.jpg" class="services_img"></div>
-                  <div class="btn_main"><a href="#">Tops</a></div>
+                  <div><img src="images/img-1.jpg" class="services_img wow animate__backInRight"></div>
+                  <div class="btn_main wow animate__backInRight"><a href="#">Tops</a></div>
                </div>
                <div class="col-md-4">
-                  <div><img src="images/img-2.jpg" class="services_img"></div>
+                  <div><img src="images/img-2.jpg" class="services_img wow animate__backInUp"></div>
                   <div class="btn_main active"><a href="#">Bottoms</a></div>
                </div>
                <div class="col-md-4">
-                  <div><img src="images/img-3.jpg" class="services_img"></div>
-                  <div class="btn_main"><a href="#">Accessories </a></div>
+                  <div><img src="images/img-3.jpg" class="services_img wow animate__backInRight"></div>
+                  <div class="btn_main wow animate__backInRight"><a href="#">Accessories </a></div>
                </div>
             </div>
          </div>
@@ -140,28 +148,30 @@
    </div>
    <!-- services section end -->
    <!-- about section start -->
+   <section class="about-section">
    <div class="about_section layout_padding">
       <div class="container-fluid">
          <div class="row">
             <div class="col-md-6">
                <div class="about_taital_main">
-                  <h1 class="about_taital">About Us</h1>
-                  <p class="about_text">We are the Risk Takers! Everything you do there is a high RISK and high REWARD, You have to strive to be the best that you ever will be. Our brand was founded by none other than the Cameron the Great.</p>
-                  <div class="readmore_bt"><a href="#">Read More</a></div>
+                  <h1 class="about_taital wow animate__backInLeft">About Us</h1>
+                  <p class="about_text wow animate__backInLeft">We are the Risk Takers! Everything you do there is a high RISK and high REWARD, You have to strive to be the best that you ever will be. Our brand was founded by none other than the Cameron the Great.</p>
+                  <div class="readmore_bt wow animate__backInLeft"><a href="#">Read More</a></div>
                </div>
             </div>
-            <div class="col-md-6 padding_right_0">
+            <div class="col-md-6 padding_right_0 wow animate__backInRight">
                <div><img src="images/about-img.png" class="about_img"></div>
             </div>
          </div>
       </div>
    </div>
+</section>
    <!-- about section end -->
    <!-- blog section start -->
    <div class="blog_section layout_padding">
       <div class="container">
-         <h1 class="blog_taital">See Our Video</h1>
-         <p class="blog_text">In this video we show off some of the clothing that we have within our store</p>
+         <h1 class="blog_taital wow animate__bounceInUp">See Our Video</h1>
+         <p class="blog_text wow animate__bounceInUp">In this video we show off some of the clothing that we have within our store</p>
          <div class="play_icon_main">
             <div class="play_icon"><a href="#"><img src="images/play-icon.png"></a></div>
          </div>
