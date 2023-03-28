@@ -882,7 +882,7 @@ button {
     margin: 0 auto;
     text-align: center;
 }
-.send_btn a {
+.send_btn a, .send_btn button {
     width: 100%;
     float: right;
     text-align: center;
@@ -892,7 +892,7 @@ button {
     background-color: #000d10;
     padding: 7px;
 }
-.send_btn a:hover {
+.send_btn a:hover, .send_btn button {
     color: #ffffff;
     background-color: #2b2278;
 }
