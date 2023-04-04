@@ -21,7 +21,7 @@
    <!-- Responsive-->
    <link rel="stylesheet" href="css/responsive.css">
    <!-- fevicon -->
-   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <link rel="icon" href="images/fevicon.png" type="image/gif" >
    <!-- Scrollbar Custom CSS -->
    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
    <!-- Tweaks for older IEs-->
@@ -33,7 +33,7 @@
    <link rel="stylesheet" href="css/owl.theme.default.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
       media="screen">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
@@ -42,7 +42,7 @@
       <div class="header_main">
          <div class="mobile_menu">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo_mobile"><a href="index.html"><img src="images/logo.GIF"></a></div>
+               <div class="logo_mobile"><a href="index.html"><img src="images/logo.GIF" alt="My logo"></a></div>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -76,7 +76,7 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="logo"><a href="index.html"><img src="images/logo.GIF"></a></div>
+            <div class="logo"><a href="index.html"><img src="images/logo.GIF" alt="My Logo"></a></div>
             <div class="menu_main">
                <ul>
                   <li class="active"><a href="index.html">Home</a></li>
@@ -111,7 +111,7 @@
                </div>
             </div>
             <div class="col-md-6 padding_right_0">
-               <div><img src="images/about-img.png" class="about_img"></div>
+               <div><img src="images/about-img.png" class="about_img" alt="About page Image"></div>
             </div>
          </div>
       </div>
@@ -122,20 +122,42 @@
       <div class="container">
          <div class="input_btn_main">
             <input type="text" class="mail_text" placeholder="Enter your email" name="Enter your email">
-            <div class="subscribe_bt"><a href="#">Subscribe</a></div>
+            <div class="subscribe_bt">
+               <button type="button" data-toggle="modal" data-target="#exampleModalLong">
+                  Subscribe
+                </button>
+            </div>
+             
+             <!-- Modal -->
+             <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLongTitle">Thank You! </h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                     </button>
+                   </div>
+                   <div class="modal-body">
+                     Thank you for subscribing to Risk Takers!
+                   </div>
+                   
+                 </div>
+               </div>
+             </div>
          </div>
          <div class="location_main">
-            <div class="call_text"><img src="images/call-icon.png"></div>
+            <div class="call_text"><img src="images/call-icon.png" alt="Call icon"></div>
             <div class="call_text"><a href="#">Call +01 3472436926</a></div>
-            <div class="call_text"><img src="images/mail-icon.png"></div>
+            <div class="call_text"><img src="images/mail-icon.png" alt="Mail Icon"></div>
             <div class="call_text"><a href="#">risktakersunited@gmail.com</a></div>
          </div>
          <div class="social_icon">
             <ul>
-               <li><a href="https://www.facebook.com/caleb.john.524596/" target="_blank"><img src="images/fb-icon.png"></a></li>
-               <li><a href="https://twitter.com/Cxileb" target="_blank"><img src="images/twitter-icon.png"></a></li>
-               <li><a href="https://www.linkedin.com/in/caleb-john-b5a885268?trk=people-guest_people_search-card" target="_blank"><img src="images/linkedin-icon.png"></a></li>
-               <li><a href="https://www.instagram.com/calebneverhated/" target="_blank"><img src="images/instagram-icon.png"></a></li>
+               <li><a href="https://www.facebook.com/caleb.john.524596/" target="_blank"><img src="images/fb-icon.png" alt="Facebook icon"></a></li>
+               <li><a href="https://twitter.com/Cxileb" target="_blank"><img src="images/twitter-icon.png" alt="Twitter icon"></a></li>
+               <li><a href="https://www.linkedin.com/in/caleb-john-b5a885268?trk=people-guest_people_search-card" target="_blank"><img src="images/linkedin-icon.png" alt="Linkedin Icon"></a></li>
+               <li><a href="https://www.instagram.com/calebneverhated/" target="_blank"><img src="images/instagram-icon.png" alt="Instagram Icon"></a></li>
             </ul>
          </div>
       </div>

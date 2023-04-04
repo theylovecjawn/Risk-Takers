@@ -446,7 +446,7 @@
         width: 200px;
         float: initial;
     }
-    .subscribe_bt a {
+    .subscribe_bt button {
         width: 100%;
         background-color: #ffffff;
         margin-top: 50px;
@@ -644,7 +644,7 @@
         width: 200px;
         float: initial;
     }
-    .subscribe_bt a {
+    .subscribe_bt button {
         width: 100%;
         background-color: #ffffff;
         margin-top: 50px;

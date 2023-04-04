@@ -945,7 +945,7 @@ button {
     float: right;
 }
 
-.subscribe_bt a {
+.subscribe_bt button {
     width: 170px;
     float: left;
     font-size: 18px;
@@ -1029,3 +1029,5 @@ button {
 .copyright_text a:hover {
     color: #e27141;
 }
+
+
